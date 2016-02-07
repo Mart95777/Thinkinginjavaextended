@@ -16,7 +16,7 @@ public class PowerNRecursively {
 	public static void main(String[] args) {
 		System.out.println("Recursively calculating a number to the power n.");
 		long b = 2;
-		int n = 21;
+		int n = 7;
 		
 		long result = pn(b,n);
 		System.out.println(""+b+" to the power "+n+" is: "+result);
