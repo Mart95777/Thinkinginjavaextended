@@ -9,6 +9,7 @@ public class MultidimensionalPrimitiveArray {
       { 4, 5, 6, },
     };
     System.out.println(Arrays.deepToString(a));
+    System.out.println(Arrays.toString(a));
   }
 } /* Output:
 [[1, 2, 3], [4, 5, 6]]

@@ -1,6 +1,6 @@
 package arrays;
 import java.util.*;
-import net.mindview.util.*;
+import utils.*;
 
 public class PrimitiveConversionDemonstration {
   public static void main(String[] args) {

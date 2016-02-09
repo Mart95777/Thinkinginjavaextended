@@ -1,5 +1,6 @@
 package arrays;
-import net.mindview.util.*;
+
+import utils.RandomGenerator;
 
 public class RandomGeneratorsTest {
   public static void main(String[] args) {

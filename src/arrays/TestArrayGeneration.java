@@ -1,7 +1,7 @@
 package arrays;
 // Test the tools that use generators to fill arrays.
 import java.util.*;
-import net.mindview.util.*;
+import utils.*;
 
 public class TestArrayGeneration {
   public static void main(String[] args) {
