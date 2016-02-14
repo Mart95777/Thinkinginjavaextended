@@ -1,8 +1,8 @@
 package arrays;
 // Using Arrays.binarySearch().
 import java.util.*;
-import net.mindview.util.*;
-import static net.mindview.util.Print.*;
+import utils.*;
+
 
 public class ArraySearching {
   public static void main(String[] args) {
@@ -14,6 +14,7 @@ public class ArraySearching {
     System.out.println("Sorted array: " + Arrays.toString(a));
     while(true) {
       int r = gen.next();
+      r = 704;
       int location = Arrays.binarySearch(a, r);
       if(location >= 0) {
         System.out.println("Location of " + r + " is " + location +

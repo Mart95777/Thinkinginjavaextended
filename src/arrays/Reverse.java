@@ -1,7 +1,7 @@
 package arrays;
 // The Collections.reverseOrder() Comparator
 import java.util.*;
-import net.mindview.util.*;
+import utils.*;
 
 public class Reverse {
   public static void main(String[] args) {

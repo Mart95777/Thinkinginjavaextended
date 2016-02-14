@@ -5,6 +5,11 @@ class BerylliumSphere {
   private static long counter;
   private final long id = counter++;
   public String toString() { return "Sphere " + id; }
+	public long getId() {
+		return id;
+	}
+  
+  
 }
 
 public class ContainerComparison {

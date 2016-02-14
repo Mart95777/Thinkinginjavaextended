@@ -1,8 +1,7 @@
 package arrays;
 // Implementing Comparable in a class.
 import java.util.*;
-import net.mindview.util.*;
-import static net.mindview.util.Print.*;
+import utils.*;
 
 public class CompType implements Comparable<CompType> {
   int i;
@@ -30,13 +29,12 @@ public class CompType implements Comparable<CompType> {
     };
   }
   public static void main(String[] args) {
-    CompType[] a =
-      Generated.array(new CompType[12], generator());
-    print("before sorting:");
-    print(Arrays.toString(a));
+    CompType[] a = Generated.array(new CompType[12], generator());
+    System.out.println("before sorting:");
+    System.out.println(Arrays.toString(a));
     Arrays.sort(a);
-    print("after sorting:");
-    print(Arrays.toString(a));
+    System.out.println("after sorting:");
+    System.out.println(Arrays.toString(a));
   }
 } /* Output:
 before sorting:
