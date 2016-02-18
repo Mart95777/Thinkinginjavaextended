@@ -1,7 +1,6 @@
 package containers;
 // What you can do with a TreeSet.
 import java.util.*;
-import static net.mindview.util.Print.*;
 
 public class SortedSetDemo {
   public static void main(String[] args) {
@@ -9,22 +8,22 @@ public class SortedSetDemo {
     Collections.addAll(sortedSet,
       "one two three four five six seven eight"
         .split(" "));
-    print(sortedSet);
+    System.out.println(sortedSet);
     String low = sortedSet.first();
     String high = sortedSet.last();
-    print(low);
-    print(high);
+    System.out.println(low);
+    System.out.println(high);
     Iterator<String> it = sortedSet.iterator();
     for(int i = 0; i <= 6; i++) {
       if(i == 3) low = it.next();
       if(i == 6) high = it.next();
       else it.next();
     }
-    print(low);
-    print(high);
-    print(sortedSet.subSet(low, high));
-    print(sortedSet.headSet(high));
-    print(sortedSet.tailSet(low));
+    System.out.println(low);
+    System.out.println(high);
+    System.out.println(sortedSet.subSet(low, high));
+    System.out.println(sortedSet.headSet(high));
+    System.out.println(sortedSet.tailSet(low));
   }
 } /* Output:
 [eight, five, four, one, seven, six, three, two]

@@ -41,6 +41,7 @@ public class TypesForSets {
     fill(set, type);
     System.out.println(set);
   }
+
   public static void main(String[] args) {
     test(new HashSet<HashType>(), HashType.class);
     test(new LinkedHashSet<HashType>(), HashType.class);
